@@ -7,6 +7,10 @@
   .page {
     padding-top: 75px;
   }
+
+  .quote {
+    max-width: 300px;
+  }
 }
 
 .container {
