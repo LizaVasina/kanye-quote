@@ -1,0 +1,38 @@
+.page {
+  padding-top: 200px;
+  background-color: #292929;
+}
+
+@media screen and (max-width: 450px) {
+  .page {
+    padding-top: 75px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  margin: 0;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 68px;
+  font-family: Arial;
+  font-weight: 800;
+  text-align: center;
+  max-width: 750px;
+}
+
+.button {
+  background-color: #ffc815;
+  width: 250px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  font-weight: 550;
+  color: #292929;
+}
